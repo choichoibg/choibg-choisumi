@@ -1,0 +1,50 @@
+// Place all the styles related to the user controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.body{
+  padding:0px;
+  margin:0px;
+  background-image:url('background2.png');
+}
+.form{
+float:right;
+}
+.login{
+  background-color:white;
+  height:50px;
+  width:100%;
+}
+.image{
+  background-image:url('image.png');
+  width:350px;
+  height:350px;
+}
+.text{
+  background-image:url('text.png');
+  width:350px;
+  height:250px;
+}
+.input{
+border: 2px solid #d8d7d8;
+padding-top: 0px;
+padding-bottom: 0px;
+color: #383c3c;
+width:200px;
+height: 30px;
+border-radius: 5px;
+margin-top: 0px;
+margin-bottom: 0px;
+}
+.input_submit{
+padding-top: 0px;
+padding-bottom: 0px;
+  width:100px;
+  height:30px;
+  background-image: url("login.png");
+}
+.first{
+  background-image: url("first.png");
+width:424px;
+height:483px;
+       z-index:5px;
+}
