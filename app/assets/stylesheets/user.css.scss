@@ -4,43 +4,68 @@
 .body{
   padding:0px;
   margin:0px;
-  background-image:url('background2.png');
+  background-image:url('background.png');
+  height:800px;
 }
 .form{
 float:right;
 }
 .login{
   background-color:white;
-  height:50px;
+  height:70px;
   width:100%;
+  position:relative;
+  top:0px;
 }
 .image{
   background-image:url('image.png');
   width:350px;
   height:350px;
+  margin-top:100px;
 }
 .text{
   background-image:url('text.png');
   width:350px;
-  height:250px;
+  height:150px;
+  margin-top: 10px;
 }
 .input{
 border: 2px solid #d8d7d8;
 padding-top: 0px;
 padding-bottom: 0px;
+padding-left:10px;
+padding-right:10px;
 color: #383c3c;
-width:200px;
-height: 30px;
+width:240px;
+height: 50px;
 border-radius: 5px;
 margin-top: 0px;
 margin-bottom: 0px;
+font-size: 18px;
+margin-top:2px;
+color:#d8d7d8;
+border:2px solid #d8d7d8;
 }
-.input_submit{
+.input_submit:hover{
 padding-top: 0px;
 padding-bottom: 0px;
-  width:100px;
-  height:30px;
-  background-image: url("login.png");
+width:150px;
+height:54px;
+font-size: 18px;
+color:white;
+
+background-color:#d8d7d8;
+border-radius:5px;
+border:2px solid #d8d7d8;
+}
+.input_submit{
+width:150px;
+height:54px;
+font-size: 18px;
+color:#d8d7d8;
+background-color:white;
+border-radius:5px;
+border:2px solid #d8d7d8;
 }
 .first{
   background-image: url("first.png");
